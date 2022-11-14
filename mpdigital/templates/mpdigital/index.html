@@ -7,11 +7,41 @@
 
 {% block main %}
 
+<div class="top-spacer"></div>
 <div class="video-wrapper">
-    <video playsinline autoplay muted loop poster="cake.jpg">
+    <video playsinline autoplay muted loop poster="">
         <source src="{% static 'mpdigital/hero-bg.mp4' %}" type="video/mp4">
       Your browser does not support the video tag.
     </video>
+
+    <div class="container hero-container text-center">
+        <div class="row">
+            <div class="col-lg-6 order-lg-first order-last tagline d-flex justify-content-center align-items-center">
+                <div class="container text-start">
+                    <h1>Creative & Innovative <br>
+                        Digital Solutions <br>
+                        Devised To Boosts Your <br>
+                        Brand's Digital Presence
+                    </h1>
+                    <h4>
+                        If you’re looking to redefine and expand your digital presence, increase your revenue and grow your business, you’ve come to the right place!
+                    </h4>
+                    <p>
+                        We can help you get more leads, more clients, more exposure, more brand awareness or more sales. From branding, to digital marketing, creative designs and development – we can help you in any of your digital needs.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 hero-graphics d-flex justify-content-center align-items-center">
+                <img src="{% static 'mpdigital/hero-graphics.svg' %}" alt="Digital Graphics Illustration">
+            </div>
+        </div>
+    </div>
 </div>
+
+<div class="test">
+    
+</div>
+
+
 
 {% endblock %}
