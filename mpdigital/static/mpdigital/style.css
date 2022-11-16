@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    font-family: 'Monda', sans-serif;
+    font-family: 'Orbitron', sans-serif;
 }
 
 /*
@@ -17,13 +17,17 @@ header {
     padding: 5px;
 }
 
+.navbar-brand img:hover {
+    border: 2px solid #FF00C1;
+}
+
 .nav-link {
     display: inline-block;
     position: relative;
     font-weight: 700;
     font-size: 1.1rem;
     color: #00FFFF;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .nav-link:after {
@@ -87,7 +91,7 @@ header {
     height: 100%;
     width: 100%;
     position: absolute;
-    filter:opacity(50%);
+    filter:opacity(45%);
 }
 
 .hero-container {
@@ -99,9 +103,7 @@ header {
     height: 100vh;
 }
 
-.tagline {
-    color: white;
-}
+
 
 .hero-graphics {
     
@@ -109,4 +111,65 @@ header {
 
 .hero-graphics img {
     height: 100%;
+}
+
+.tagline {
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+}
+
+.tagline h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.tagline .cyan {
+    color: #00FFFF;
+}
+
+.tagline .purple {
+    color: #FF00C1;
+}
+
+.tagline h2 {
+    
+    font-weight: 700;
+}
+
+.tagline h5 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    color: #00FFFF;
+}
+
+.tagline p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+.tagline hr {
+    border: 2px solid #00FFFF;
+    opacity: 100%;
+}
+
+.view-works {
+    background-color: #00FFFF;
+    border: none;
+    padding: 10px 30px;
+    color: #0B1445;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin: 0px 10px 0px 0px;
+}
+
+.get-started {
+    background-color: #FF00C1;
+    border: none;
+    padding: 10px 30px;
+    color: #0B1445;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 1.2rem;
 }
